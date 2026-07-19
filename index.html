@@ -1143,6 +1143,11 @@
     .business-value-proof strong { display: block; margin-top: 5px; font-size: 11px; line-height: 1.5; }
     .business-value-disclaimer { margin: 14px 0 0; color: var(--muted); font-size: 10px; line-height: 1.55; }
 
+    @media (max-width: 1440px) {
+      .workflow-shell { grid-template-columns: minmax(0, 1fr); row-gap: 8px; }
+      .workflow-tools { min-width: 0; justify-content: space-between; }
+      .provenance-button { min-width: 0; white-space: normal; text-align: left; line-height: 1.35; }
+    }
     @media (max-width: 1180px) {
       :root { --sidebar: 78px; }
       .brand-copy, .nav-button > span:last-child, .nav-label, .sidebar-note, .profile > div { display: none; }
