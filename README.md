@@ -4,6 +4,8 @@ NutriGrowth OS is a static, interactive competition demo for a trustworthy nutri
 
 ## Deployment
 
+CloudBase: https://jcd3106668775-d4gyhozxf783505b1-1455582932.tcloudbaseapp.com/#overview
+
 Vercel is connected to this repository. Each push to `main` creates a production deployment; other branches and pull requests create preview deployments.
 
 The runtime contains only:
